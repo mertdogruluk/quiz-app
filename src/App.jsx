@@ -3,6 +3,7 @@ import { getShuffledQuestions } from "./data/Questions";
 import Quiz from "./components/Quiz";
 import "./App.css";
 
+
 function App() {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
